@@ -9,8 +9,8 @@ main:
   #- title: "CV - EN"
   #  url: /files/ResumeEN.pdf
 
-  - title: "Contact"
-    url: /contact/    
+  #- title: "Contact"
+  #  url: /contact/    
 
   #- title: "Teaching"
   #  url: /teaching/    
