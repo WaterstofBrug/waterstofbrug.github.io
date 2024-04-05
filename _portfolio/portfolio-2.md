@@ -1,6 +1,6 @@
 ---
 title: "Networks and Security Project"
-excerpt: "This is our (made together with Yves van Haaren) implementation of the bTCP protocol posed in the course Networks and Security at Radboud University. Grade: X.X, April 2024 <br/><img src='/images/RDT_protocol_dalle.jpg'>"
+excerpt: "This is our (made together with Yves van Haaren) implementation of the bTCP protocol posed in the course Networks and Security at Radboud University. Grade: X.X, April 2024 <br/><img src='/images/RDT_protocol_dalle_500x500.jpg'>"
 collection: portfolio
 ---
 
