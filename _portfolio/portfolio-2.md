@@ -1,17 +1,15 @@
 ---
-title: "Quantum Assembly - *IN PROGRESS*"
-excerpt: "A quantum computer emulator combined with a rudimentary programming language. <br/><img src='/images/500x300.png'>"
+title: "Algorithms and Datastructures Project"
+excerpt: "This is our (made together with Yves van Haaren) solution to the Pumps problem posed in the course Algorithms and Datastructures at Radboud University. Grade: 9.6 <br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
-Motivation
+The problem in short
 ----
-I started this project to get a better understanding of quantum computers. In addition it allows me to tinker with quantum computing in my own personal enviorement which I can change however I see fit.
+The problem concerns the flooding of the Dutch *polders*. There is a provided graph where some notes are marked as containing a pumping station. Each edge has a different cost to traverse. When you are at a node with a pump you may turn it on to start pumping out water at a constant flow. The problem in short is given a certain starting location how can you traverse the graph such that you pump as much water out of the polders in total given a certain time frame.
 
-Project
+Key parts of our solution
 ----
-This project consits of two parts:
+1. We first reduced the graph to only contain nodes marked as having a pump. This was done using Dijkstra's algorithm. 
 
-1. The first part is a quantum computer emulator. The program will handle some basic QPU operations like a quantum computer would. This means the program has to adhere to physical rules from the quantum scale. 
-
-1. The second part is a rudimentary programming language. In this project I will also construct a basic programming language to be a front for my emulator. 
+2. For the second part we utilised dynamic programming. We reduced the problem to minimizing the sum of the commencement times of the pumps. We have developed a rather extensive recurrence relation for this part of the solution, which is further specified and mathematically supported (not a formal proof) in our report included in the git repository.
