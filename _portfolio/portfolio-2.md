@@ -1,12 +1,12 @@
 ---
 title: "Networks and Security Project"
-excerpt: "This is our (made together with Yves van Haaren) implementation of the bTCP protocol posed in the course Networks and Security at Radboud University. Grade: X.X, April 2024 <br/><img src='/images/500x300.png'>"
+excerpt: "This is our (made together with Yves van Haaren) implementation of the bTCP protocol posed in the course Networks and Security at Radboud University. Grade: X.X, April 2024 <br/><img src='/images/RDT_protocol_dalle.jpg'>"
 collection: portfolio
 ---
 
 The project in short
 ----
-The task was to implement a reliable datatransfer protocol (RDP) build upon the UDP protocol immitating the TCP protocol (bTCP is short for basic-TCP). We were provided with a working UDP protocol (called the lossy layer) and a simple interface acting as the application layer. We were tasked with implementing sockets. 
+The task was to implement a reliable datatransfer protocol build upon the UDP protocol immitating the TCP protocol (bTCP is short for basic-TCP). We were provided with a working UDP protocol (called the lossy layer) and a simple interface acting as the application layer. We were tasked with implementing sockets. 
 
 Key parts of our implementation
 ----
