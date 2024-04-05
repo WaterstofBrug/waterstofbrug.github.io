@@ -1,24 +1,17 @@
 ---
-title: "Networks and Security Project"
-excerpt: "This is our (made together with Yves van Haaren) implementation of the bTCP protocol posed in the course Networks and Security at Radboud University. Grade: X.X, April 2024 <br/><img src='/images/500x300.png'>"
+title: "Quantum Assembly - *IN PROGRESS*"
+excerpt: "A quantum computer emulator combined with a rudimentary programming language. <br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
-The project in short
+Motivation
 ----
-The task was to implement a reliable datatransfer protocol (RDP) build upon the UDP protocol immitating the TCP protocol (bTCP is short for basic-TCP). We were provided with a working UDP protocol (called the lossy layer) and a simple interface acting as the application layer. We were tasked with implementing sockets. 
+I started this project to get a better understanding of quantum computers. In addition it allows me to tinker with quantum computing in my own personal enviorement which I can change however I see fit.
 
-Key parts of our implementation
+Project
 ----
-1. We had to implement a working handshake. The sockets followed a finite state machine, which we used to guide the sockets through this process. We had to exchange sequence numbers, window sizes and protocol types. As the application layer and the network layer run on different threads we also had to take that into account.
+This project consits of two parts:
 
-2. When the handshake is completed, meaning the sockets were in-sync and ready to transfer data, we had to implement a protocol to ensure the data transfer was reliable. We implemented GBN (Go-Back-N) and SR (Selective Repeat). We additionally implemented a proper OO structure to facilitate multiple protocols and expanded the provided command-line UI to support this extra feature.
+1. The first part is a quantum computer emulator. The program will handle some basic QPU operations like a quantum computer would. This means the program has to adhere to physical rules from the quantum scale. 
 
-3. We also had to merge the server socket and client socket into a so-called hybrid socket. This socket can now act as either a server (data-receiver) or a client (data-sender).
-
-Key skills learned/used in this project
-----
-- Incorperating a finite state machine into the core of an implementation
-- Construction proper and more elaborate OO structures/patterns
-- Working with multiple threads and providing thread-safe code
-- Working with more rudimentary networking modules in Python
+1. The second part is a rudimentary programming language. In this project I will also construct a basic programming language to be a front for my emulator. 

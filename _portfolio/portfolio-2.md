@@ -1,23 +1,24 @@
 ---
-title: "Algorithms and Datastructures Project"
-excerpt: "This is our (made together with Yves van Haaren) solution to the Pumps problem posed in the course Algorithms and Datastructures at Radboud University. Grade: 9.6, December 2023 <br/><img src='/images/500x300.png'>"
+title: "Networks and Security Project"
+excerpt: "This is our (made together with Yves van Haaren) implementation of the bTCP protocol posed in the course Networks and Security at Radboud University. Grade: X.X, April 2024 <br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
-The problem in short
+The project in short
 ----
-The problem concerns the flooding of the Dutch *polders*. There is a provided graph where some notes are marked as containing a pumping station and each edge has a different provided cost to traverse. When you are at a node with a pump you may turn it on to start pumping out water at a constant flow. The problem in short is: given a certain graph and starting location how can you traverse this graph such that you pump as much water out of the polders in given a certain time frame.
+The task was to implement a reliable datatransfer protocol (RDP) build upon the UDP protocol immitating the TCP protocol (bTCP is short for basic-TCP). We were provided with a working UDP protocol (called the lossy layer) and a simple interface acting as the application layer. We were tasked with implementing sockets. 
 
-Key parts of our solution
+Key parts of our implementation
 ----
-1. We first reduced the graph to only contain nodes marked as having a pump. This was done using Dijkstra's algorithm. 
+1. We had to implement a working handshake. The sockets followed a finite state machine, which we used to guide the sockets through this process. We had to exchange sequence numbers, window sizes and protocol types. As the application layer and the network layer run on different threads we also had to take that into account.
 
-2. For the second part we utilised dynamic programming. We reduced the problem to minimizing the sum of the commencement times of the pumps. We have developed a rather extensive recurrence relation for this part of the solution, which is further specified and mathematically supported (not a formal proof) in our report included in the git repository.
+2. When the handshake is completed, meaning the sockets were in-sync and ready to transfer data, we had to implement a protocol to ensure the data transfer was reliable. We implemented GBN (Go-Back-N) and SR (Selective Repeat). We additionally implemented a proper OO structure to facilitate multiple protocols and expanded the provided command-line UI to support this extra feature.
+
+3. We also had to merge the server socket and client socket into a so-called hybrid socket. This socket can now act as either a server (data-receiver) or a client (data-sender).
 
 Key skills learned/used in this project
 ----
-- Working on graph theoretic problems and implementing algorithms such as Dijkstra's algorithm
-- Being able come up with and implement more advanced types of algorithms such as a Dynamic programming solution
-- Being able to mathematically support/proof validity of a solution to a certain algorithm
-- Being able to determine complexity of simple algorithms, like Dijkstra's algorithm, and more complicated algorithms, which make use of recurrence relations
-- Effectively using hashmaps/hashtables (sets and dictionaries) in Python to speed-up an implemention
+- Incorperating a finite state machine into the core of an implementation
+- Construction proper and more elaborate OO structures/patterns
+- Working with multiple threads and providing thread-safe code
+- Working with more rudimentary networking modules in Python
