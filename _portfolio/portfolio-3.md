@@ -1,6 +1,6 @@
 ---
 title: "Quantum Assembly - *IN PROGRESS*"
-excerpt: "A quantum computer emulator combined with a rudimentary programming language. <br/><img src='/images/quantum_chip_dalle.jpg'><p>Quantum Chip, made by dall-e</p>"
+excerpt: "A quantum computer emulator combined with a rudimentary programming language. <br/><img src='/images/quantum_chip_dalle.jpg' width="300" height="200">Quantum Chip, made by dall-e"
 collection: portfolio
 ---
 
