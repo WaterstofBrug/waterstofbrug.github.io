@@ -1,6 +1,6 @@
 ---
 title: "Algorithms and Datastructures Project"
-excerpt: "This is our (made together with Yves van Haaren) solution to the Pumps problem posed in the course Algorithms and Datastructures at Radboud University. Grade: 9.6 <br/><img src='/images/500x300.png'>"
+excerpt: "This is our (made together with Yves van Haaren) solution to the Pumps problem posed in the course Algorithms and Datastructures at Radboud University. Grade: 9.6, December 2023 <br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
