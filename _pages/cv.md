@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* VWO (tto), Isendoorn College <ul>{% hi www.youtube.com %}</ul>
+* VWO (tto), Isendoorn College <ul>{% include www.youtube.com %}</ul>
 * International Baccalaureate, Isendoorn College, 2022
 * B.S. in Mathematics, Radboud University, 2025 (expected)
 * B.S. in Computer Science, Radboud University. 2025 (expected)
