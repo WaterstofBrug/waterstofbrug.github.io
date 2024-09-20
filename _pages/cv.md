@@ -11,10 +11,13 @@ redirect_from:
 
 Education
 ======
-* VWO (tto), Isendoorn College 
-* International Baccalaureate, Isendoorn College, 2022
 * B.S. in Mathematics, Radboud University, 2025 (expected)
+  * Sepcialisation in Statistics and Probability
 * B.S. in Computer Science, Radboud University. 2025 (expected)
+  * Specialisation in Cyber Security
+  * Specialisation in Data Science
+* International Baccalaureate, Isendoorn College, 2022
+* vwo (tto), Isendoorn College 
 
 Work experience
 ======
