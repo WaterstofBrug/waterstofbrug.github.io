@@ -21,7 +21,7 @@ Education
 
 Work experience
 ======
-* Fall 2024: Student Assistant
+* September 2024 - January 2025: Student Assistant
   * I am working as a student assistant for the course Algorithms and Datastructures at Radboud University. Here I give work lectures and grade homework. 
 
 Skills
