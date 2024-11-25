@@ -17,7 +17,7 @@ Education
   * Specialisation in Cyber Security
   * Specialisation in Data Science
 * International Baccalaureate, Isendoorn College, 2022
-* vwo (tto), Isendoorn College, 2022
+* VWO (tto), Isendoorn College, 2022
 
 Work experience
 ======
