@@ -9,11 +9,12 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+Education:
 ======
-* B.S. in Mathematics, Radboud University, 2025 (expected)
+* M.S. in Computer Science (MPRI), IP Paris, 2027 (expected)
+* B.S. in Mathematics, Cum Laude, Radboud University, 2025
   * Sepcialisation in Statistics and Probability
-* B.S. in Computer Science, Radboud University. 2025 (expected)
+* B.S. in Computer Science, Cum Laude, Radboud University, 2025
   * Specialisation in Cyber Security
   * Specialisation in Data Science
 * International Baccalaureate, Isendoorn College, 2022
