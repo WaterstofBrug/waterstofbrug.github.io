@@ -20,11 +20,17 @@ Education:
 * International Baccalaureate, Isendoorn College, 2022
 * VWO (tto), Isendoorn College, 2022
 
-Work experience
+Internship:
+=====
+* Research Internship at the AlCO team of LIX, March - June 2026
+I will partake in a research internship at the AlCO team at the LIX lab, the computer
+science lab of Ecole Polytechnique. My intership supervisor will be Benjamin Doerr.
+
+Work experience:
 ======
 * September 2024 - January 2025: Student Assistant
   * I am working as a student assistant for the course Algorithms and Datastructures at Radboud University. Here I facilitate workgroup sessions and grade homework. 
 
-Skills
+Skills:
 ======
 * Python - Proficient
