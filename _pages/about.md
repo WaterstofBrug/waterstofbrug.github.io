@@ -16,6 +16,7 @@ Op dit moment volg ik mijn vakken aan *École Polytechnique*, waar ik mij vooral
 
 In de toekomst hoop ik mij verder te verdiepen in verschillende manieren en technieken om problemen in de informatica op te lossen, en hoop ik hier een begin te maken aan een carrière in het onderzoek.
 
+*English*
 
 I am Dieks Scholten, 21 years old. I am a first-year master’s student at the Institut Polytechnique de Paris (IP Paris). I am enrolled in the master’s programme *Master Parisien de Recherche en Informatique* (MPRI) — the Parisian research master’s in Computer Science. This programme is a collaboration between multiple universities in Paris, offering a broad range of topics with a strong focus on research.
 
