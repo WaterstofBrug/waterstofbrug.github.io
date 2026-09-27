@@ -3,7 +3,7 @@ title: "Quantum Combinatorial Games (Pre-Print)"
 collection: publications
 permalink: /publication/DBS26
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2026
+date: 7-7-2026
 venue: 'arXiv'
 paperurl: 'https://arxiv.org/pdf/2607.06550'
 citation: 'D Scholten, B Westerbaan, S Samardjiska. (2026). &quot;Quantum Combinatorial Games.&quot; <i>arXiv</i>. 1(1).'
