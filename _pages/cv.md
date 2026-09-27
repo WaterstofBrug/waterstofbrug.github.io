@@ -12,6 +12,7 @@ redirect_from:
 Education:
 ======
 * M.S. in Computer Science (MPRI), IP Paris, 2027 (expected)
+  * M1 (GPA 4.0), Research Internship (A+): "On the Design of True Many-Objective Benchmarks"
 * B.S. in Mathematics, Cum Laude (GPA 4.0), Radboud University, 2025
   * Specialisation in Statistics and Probability
 * B.S. in Computer Science, Cum Laude (GPA 4.0), Radboud University, 2025
@@ -30,11 +31,11 @@ science lab of Ecole Polytechnique. I conducted research in developing many-obje
 Work experience:
 ======
 * September 2024 - January 2025: Student Assistant
-  * I am working as a student assistant for the course Algorithms and Datastructures at Radboud University. Here I facilitate workgroup sessions and grade homework. 
+  * Worked as a student assistant for the course Algorithms and Datastructures at Radboud University. Facilitated workgroup sessions and grade homework. 
 
 Additional:
 =====
 * August 2026: CMMRS Pre-Doctoral Research Summer School
-  * Will attend the Pre-Doctoral Research summer school hosted by the Max-Planck Institutes, Cornell University
+  * Attended the Pre-Doctoral Research summer school hosted by the Max-Planck Institutes, Cornell University
 and the University of Maryland. Attended lectures and discussion in cutting edge research in Computer
 Science.

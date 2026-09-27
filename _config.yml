@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Dieks Scholten"
   avatar           : "hoofd.jpg"
-  bio              : "1ste jaars master's student Informatica aan de Institut Polytechnique de Paris. <br> <br> 1st year master's student in Computer Science at the Institut Polytechnique de Paris."
-  location         : "Zutphen, Nederland\nNetherlands"
+  bio              : "2de jaars master's student Informatica aan de Institut Polytechnique de Paris. <br> <br> 2nd year master's student in Computer Science at the Institut Polytechnique de Paris."
+  location         : "Paris, France"
   employer         :
   pubmed           : 
   googlescholar    : 
@@ -220,7 +220,7 @@ defaults:
       comments: true
   # _publications
   - scope:
-      path: ""
+      path: "_pages/publications/"
       type: publications
     values:
       layout: single
