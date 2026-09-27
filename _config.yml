@@ -86,7 +86,7 @@ author:
   location         : "Paris, France"
   employer         :
   pubmed           : 
-  googlescholar    : 
+  googlescholar    : "https://scholar.google.com/citations?user=OetFXswAAAAJ&hl=en&oi=ao"
   email            :  "dieksscholten@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -220,7 +220,7 @@ defaults:
       comments: true
   # _publications
   - scope:
-      path: "_pages/publications/"
+      path: ""
       type: publications
     values:
       layout: single
